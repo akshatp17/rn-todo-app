@@ -9,7 +9,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text className="text-4xl text-center">
+        Welcome! This is the home page fot todo app
+      </Text>
     </View>
   );
 }
